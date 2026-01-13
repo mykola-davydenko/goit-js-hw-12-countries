@@ -1,0 +1,35 @@
+{
+  "name": "goit-js-hw-12-countries",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /json-lesson/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykola-davydenko/goit-js-hw-12-countries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mykola-davydenko/goit-js-hw-12-countries/issues"
+  },
+  "homepage": "https://github.com/mykola-davydenko/goit-js-hw-12-countries#readme",
+  "dependencies": {
+    "debounce": "^3.0.0",
+    "parcel": "^2.16.3"
+  },
+  "devDependencies": {
+    "@pnotify/core": "^5.2.0",
+    "@pnotify/desktop": "^5.2.0",
+    "@pnotify/mobile": "^5.2.0",
+    "gh-pages": "^6.3.0"
+  }
+}

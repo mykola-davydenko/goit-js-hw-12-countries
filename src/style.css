@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  width: 400px;
+  margin: 30px auto;
+}
+
+.data-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-top: 5px;
+}
+
+.sucess-box {
+  margin-top: 20px;
+}
+
+.wrap {
+  display: flex;
+  gap: 20px;
+}
+
+.img {
+  width: 400px;
+}
